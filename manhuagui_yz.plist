@@ -73,7 +73,7 @@
 				<key>classOfIsHtml</key>
 				<dict>
 					<key>classWebPageSourceCharset_UTF8IsYES_GB2312IsNo</key>
-					<true/>
+					<false/>
 					<key>classWebPageSourceReplaceStr_Array</key>
 					<array>
 						<string>换行</string>
