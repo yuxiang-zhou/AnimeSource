@@ -77,20 +77,18 @@
 				<key>classGetResponseIsPostMethod_PostData_ClassIDKey</key>
 				<string>subject</string>
 				<key>classComicCoverImageUrlMainUrl</key>
-				<string>https://www.manhuagui.com/</string>
+				<string></string>
 				<key>classPageType_HTMLIsYES_JSONIsNO</key>
 				<true/>
 				<key>classOfIsHtml</key>
 				<dict>
 					<key>classWebPageSourceCharset_UTF8IsYES_GB2312IsNo</key>
-					<false/>
-					<key>classWebPageSourceRepleaseStr_Array</key>
+					<true/>
+					<key>classWebPageSourceReplaceStr_Array</key>
 					<array>
 						<string>换行</string>
 						<string>回车</string>
 					</array>
-					<key>classWebPageSourceRepleaseStr_Dict</key>
-					<dict/>
 					<key>classWebPageSourceResolveBegin</key>
 					<string></string>
 					<key>classWebPageSourceResolveEnd</key>
@@ -98,25 +96,23 @@
 					<key>classWebPageSourceRegex</key>
 					<dict>
 						<key>regex</key>
-						<string>&lt;li&gt;&lt;a class=&quot;.*&quot; href=&quot;(.*?)&quot; title=&quot;(.*?)&quot;&gt;&lt;img src=&quot;(.*?)&quot; alt=&quot;.*&quot;&gt;&lt;span class=&quot;bg&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tt&quot;&gt;更新至(.*?)&lt;/span&gt;.*&lt;span class=&quot;updateon&quot;&gt;更新於：(.*?)&lt;em&gt;.*&lt;/em&gt;&lt;/span&gt;&lt;/li&gt;</string>
+						<string>li&gt;&lt;a class=&quot;(.*?)&quot; href=&quot;(.*?)&quot; title=&quot;(.*?)&quot;&gt;&lt;img(.*?)src=&quot;(.*?)&quot; alt=&quot;(.*?)&quot;/&gt;&lt;span class=&quot;bg&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tt&quot;&gt;更新至(.*?)&lt;/span&gt;(.*?)更新于：(.*?)&lt;em&gt;</string>
 						<key>name</key>
-						<integer>2</integer>
+						<integer>3</integer>
 						<key>author</key>
 						<integer>0</integer>
 						<key>state</key>
-						<integer>4</integer>
+						<integer>7</integer>
 						<key>stateStringBegin</key>
 						<string></string>
 						<key>coverImageUrl</key>
-						<integer>3</integer>
+						<integer>5</integer>
 						<key>coverImageUrlIsNeedUTF8Encode</key>
 						<false/>
-						<key>comicDetailPageUrlUrlNeedUnicodeDecode</key>
-						<false/>
 						<key>comicDetailPageUrl</key>
-						<integer>1</integer>
+						<integer>2</integer>
 						<key>comicDetailPageIsNeedAddMainUrl</key>
-						<string>https://www.manhuagui.com/</string>
+						<string>https://www.manhuagui.com</string>
 					</dict>
 					<key>classEndPageFlag</key>
 					<string>下一页</string>
