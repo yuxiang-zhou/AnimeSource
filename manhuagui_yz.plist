@@ -12,7 +12,7 @@
 			<key>icon</key>
 			<string>http://source.51devapp.com/comics/ManHuaGui.png</string>
 			<key>serverOnlyID</key>
-			<integer>1257</integer>
+			<integer>1258</integer>
 			<key>miniAppVer</key>
 			<string>com.MX.mhb:3.1.0;com.hts.hjdm:3.1.0;</string>
 			<key>headersForWebPage</key>
