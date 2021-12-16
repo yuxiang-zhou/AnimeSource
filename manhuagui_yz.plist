@@ -8,7 +8,7 @@
 			<key>title</key>
 			<string>漫画柜yz</string>
 			<key>mainURL</key>
-			<string>https://tw.manhuagui.com/</string>
+			<string>https://m.manhuagui.com/</string>
 			<key>serverOnlyID</key>
 			<integer>1257</integer>
 			<key>miniAppVer</key>
@@ -16,12 +16,12 @@
 			<key>headersForWebPage</key>
 			<dict>
 				<key>User-Agent</key>
-				<string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.73.11 (KHTML, like Gecko) Version/7.0.1 Safari/537.73.11</string>
+				<string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15</string>
 			</dict>
 			<key>headersForCoverImage</key>
 			<dict>
 				<key>User-Agent</key>
-				<string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.73.11 (KHTML, like Gecko) Version/7.0.1 Safari/537.73.11</string>
+				<string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15</string>
 			</dict>
 			<key>headersForDownloadComicImage</key>
 			<dict>
@@ -40,9 +40,9 @@
 						<key>title</key>
 						<string>全部</string>
 						<key>url1</key>
-						<string>https://tw.manhuagui.com/list/view_p1.html</string>
+						<string>https://m.manhuagui.com/list/view_p1.html</string>
 						<key>url</key>
-						<string>https://tw.manhuagui.com/list/view_p@.html</string>
+						<string>https://m.manhuagui.com/list/view_p@.html</string>
 						<key>parseLevel</key>
 						<integer>1</integer>
 					</dict>
@@ -50,9 +50,9 @@
 						<key>title</key>
 						<string>热血</string>
 						<key>url1</key>
-						<string>https://tw.manhuagui.com/list/rexue/index_p1.html</string>
+						<string>https://m.manhuagui.com/list/rexue/index_p1.html</string>
 						<key>url</key>
-						<string>https://tw.manhuagui.com/list/rexue/index_p@.html</string>
+						<string>https://m.manhuagui.com/list/rexue/index_p@.html</string>
 						<key>parseLevel</key>
 						<integer>1</integer>
 					</dict>
@@ -105,7 +105,7 @@
 						<key>comicDetailPageUrl</key>
 						<integer>1</integer>
 						<key>comicDetailPageIsNeedAddMainUrl</key>
-						<string>https://tw.manhuagui.com/</string>
+						<string>https://m.manhuagui.com/</string>
 					</dict>
 					<key>classEndPageFlag</key>
 					<string>下一页</string>
@@ -154,7 +154,7 @@
 				<key>updateComicUrlWithDataIsNeedNowTime_Dict</key>
 				<dict/>
 				<key>updatePageMainUrl</key>
-				<string>https://tw.manhuagui.com/list/lianzai/</string>
+				<string>https://m.manhuagui.com/list/lianzai/</string>
 				<key>updateGetResponseIsPostMethod_PostDataKeys_Dict</key>
 				<dict/>
 				<key>updateGetResponseIsPostMethod_PostData_PageNoKey</key>
@@ -201,7 +201,7 @@
 						<key>comicDetailPageUrl</key>
 						<integer>1</integer>
 						<key>comicDetailPageIsNeedAddMainUrl</key>
-						<string>https://tw.manhuagui.com</string>
+						<string>https://m.manhuagui.com</string>
 					</dict>
 				</dict>
 				<key>updateOfIsJson</key>
@@ -240,7 +240,7 @@
 			<key>hotOfChoosseList</key>
 			<dict>
 				<key>hotPageMainUrl</key>
-				<string>https://tw.manhuagui.com/rank/total.html</string>
+				<string>https://m.manhuagui.com/rank/total.html</string>
 				<key>hotGetResponseIsPostMethod_PostDataKeys_Dict</key>
 				<dict/>
 				<key>hotGetResponseIsPostMethod_PostData_PageNoKey</key>
@@ -287,7 +287,7 @@
 						<key>comicDetailPageUrl</key>
 						<integer>1</integer>
 						<key>comicDetailPageIsNeedAddMainUrl</key>
-						<string>https://tw.manhuagui.com/</string>
+						<string>https://m.manhuagui.com/</string>
 					</dict>
 				</dict>
 				<key>hotOfIsJson</key>
@@ -564,9 +564,9 @@
 				<key>searchMainUrlStringWithSplite_ArrayOfNum</key>
 				<integer>6</integer>
 				<key>searchPageComicMainUrl</key>
-				<string>https://tw.manhuagui.com/s/@_p1.html</string>
+				<string>https://m.manhuagui.com/s/@_p1.html</string>
 				<key>searchPageComicMainUrlNextUrl</key>
-				<string>https://tw.manhuagui.com/s/@_p#.html</string>
+				<string>https://m.manhuagui.com/s/@_p#.html</string>
 				<key>searchResponseIsNeedPagingMethod_NeedIsYES_OrIsNO</key>
 				<true/>
 				<key>searchResponseIsPagingMethod_PageKeys_Dict</key>
