@@ -73,7 +73,7 @@
 				<key>classOfIsHtml</key>
 				<dict>
 					<key>classWebPageSourceCharset_UTF8IsYES_GB2312IsNo</key>
-					<false/>
+					<true/>
 					<key>classWebPageSourceReplaceStr_Array</key>
 					<array>
 						<string>换行</string>
@@ -102,7 +102,7 @@
 						<key>comicDetailPageUrl</key>
 						<integer>2</integer>
 						<key>comicDetailPageIsNeedAddMainUrl</key>
-						<string>https://m.manhuagui.com</string>
+						<string></string>
 					</dict>
 					<key>classEndPageFlag</key>
 					<string></string>
