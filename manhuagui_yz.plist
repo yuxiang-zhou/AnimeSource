@@ -6,13 +6,15 @@
 	<array>
 		<dict>
 			<key>title</key>
-			<string>漫画柜yz</string>
+			<string>漫画柜old</string>
 			<key>mainURL</key>
-			<string>https://www.manhuagui.com/</string>
+			<string>https://www.manhuagui.com</string>
+			<key>icon</key>
+			<string>http://source.51devapp.com/comics/ManHuaGui.png</string>
 			<key>serverOnlyID</key>
-			<integer>1257</integer>
+			<integer>1085</integer>
 			<key>miniAppVer</key>
-			<string></string>
+			<string>com.MX.mhb:3.1.0;com.hts.hjdm:3.1.0;</string>
 			<key>headersForWebPage</key>
 			<dict>
 				<key>User-Agent</key>
@@ -26,12 +28,21 @@
 			<key>headersForDownloadComicImage</key>
 			<dict>
 				<key>User-Agent</key>
-				<string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.73.11 (KHTML, like Gecko) Version/7.0.1 Safari/537.73.11</string>
+				<string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15</string>
+				<key>Referer</key>
+				<string>https://www.manhuagui.com/comic/33920/460683.html</string>
+				<key>Accept</key>
+				<string>image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5</string>
 			</dict>
 			<key>headersForOnlineViewComicImage</key>
-			<dict/>
-			<key>removeNoShowOfComicNameList</key>
-			<array/>
+			<dict>
+				<key>User-Agent</key>
+				<string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15</string>
+				<key>Referer</key>
+				<string>https://www.manhuagui.com/comic/33920/460683.html</string>
+				<key>Accept</key>
+				<string>image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5</string>
+			</dict>
 			<key>classOfChooseList</key>
 			<dict>
 				<key>Classes</key>
