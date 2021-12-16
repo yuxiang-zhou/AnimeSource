@@ -86,13 +86,13 @@
 					<key>classWebPageSourceRegex</key>
 					<dict>
 						<key>regex</key>
-						<string>&lt;li&gt;(.*?)&lt;a href=&quot;(.*?)&quot;&gt;&lt;div class=&quot;thumb&quot;&gt;&lt;img data-src=&quot;(.*?)&quot; src=&quot;(.*?)&quot;&gt;&lt;i&gt;(.*?)&lt;/i&gt;&lt;/div&gt;&lt;h3&gt;(.*?)&lt;/h3&gt;&lt;dl&gt;&lt;dt&gt;作 者：&lt;/dt&gt;&lt;dd&gt;(.*?)&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;类 别：&lt;/dt&gt;(.*?)&lt;dt&gt;更新至：&lt;/dt&gt;&lt;dd&gt;(.*?)&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;更新于：&lt;/dt&gt;&lt;dd&gt;(.*?)&lt;/dd&gt;&lt;/dl&gt;&lt;/a&gt;&lt;/li&gt;</string>
+						<string>&lt;li&gt;(.*?)&lt;a href=&quot;(.*?)&quot;&gt;&lt;div class=&quot;thumb&quot;&gt;&lt;img data-src=&quot;(.*?)&quot; src=&quot;(.*?)&quot;&gt;&lt;i&gt;(.*?)&lt;/i&gt;&lt;/div&gt;&lt;h3&gt;(.*?)&lt;/h3&gt;</string>
 						<key>name</key>
-						<integer>4</integer>
-						<key>author</key>
 						<integer>6</integer>
+						<key>author</key>
+						<integer>0</integer>
 						<key>state</key>
-						<integer>1</integer>
+						<integer>5</integer>
 						<key>stateStringBegin</key>
 						<string></string>
 						<key>coverImageUrl</key>
