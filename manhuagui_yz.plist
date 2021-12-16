@@ -6,9 +6,9 @@
 	<array>
 		<dict>
 			<key>title</key>
-			<string>漫画柜yz</string>
+			<string>漫画柜m</string>
 			<key>mainURL</key>
-			<string>https://www.manhuagui.com</string>
+			<string>https://m.manhuagui.com/list/</string>
 			<key>icon</key>
 			<string>http://source.51devapp.com/comics/ManHuaGui.png</string>
 			<key>serverOnlyID</key>
@@ -30,7 +30,7 @@
 				<key>User-Agent</key>
 				<string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15</string>
 				<key>Referer</key>
-				<string>https://www.manhuagui.com/comic/33920/460683.html</string>
+				<string>https://m.manhuagui.com/list/comic/33920/460683.html</string>
 				<key>Accept</key>
 				<string>image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5</string>
 			</dict>
@@ -39,7 +39,7 @@
 				<key>User-Agent</key>
 				<string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15</string>
 				<key>Referer</key>
-				<string>https://www.manhuagui.com/comic/33920/460683.html</string>
+				<string>https://m.manhuagui.com/list/comic/33920/460683.html</string>
 				<key>Accept</key>
 				<string>image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5</string>
 			</dict>
@@ -51,19 +51,9 @@
 						<key>title</key>
 						<string>全部</string>
 						<key>url1</key>
-						<string>https://www.manhuagui.com/list/view_p1.html</string>
+						<string>https://m.manhuagui.com/list/view_p1.html</string>
 						<key>url</key>
-						<string>https://www.manhuagui.com/list/view_p@.html</string>
-						<key>parseLevel</key>
-						<integer>1</integer>
-					</dict>
-					<dict>
-						<key>title</key>
-						<string>热血</string>
-						<key>url1</key>
-						<string>https://www.manhuagui.com/list/rexue/index_p1.html</string>
-						<key>url</key>
-						<string>https://www.manhuagui.com/list/rexue/index_p@.html</string>
+						<string>https://m.manhuagui.com/list/view_p@.html</string>
 						<key>parseLevel</key>
 						<integer>1</integer>
 					</dict>
@@ -96,26 +86,26 @@
 					<key>classWebPageSourceRegex</key>
 					<dict>
 						<key>regex</key>
-						<string>li&gt;&lt;a class=&quot;(.*?)&quot; href=&quot;(.*?)&quot; title=&quot;(.*?)&quot;&gt;&lt;img(.*?)src=&quot;(.*?)&quot; alt=&quot;(.*?)&quot;/&gt;&lt;span class=&quot;bg&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tt&quot;&gt;更新至(.*?)&lt;/span&gt;(.*?)更新于：(.*?)&lt;em&gt;</string>
+						<string>&lt;li&gt;(.*?)&lt;a href=&quot;(.*?)&quot;&gt;&lt;div class=&quot;thumb&quot;&gt;&lt;img data-src=&quot;(.*?)&quot; src=&quot;(.*?)&quot;&gt;&lt;i&gt;(.*?)&lt;/i&gt;&lt;/div&gt;&lt;h3&gt;(.*?)&lt;/h3&gt;&lt;dl&gt;&lt;dt&gt;作 者：&lt;/dt&gt;&lt;dd&gt;(.*?)&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;类 别：&lt;/dt&gt;(.*?)&lt;dt&gt;更新至：&lt;/dt&gt;&lt;dd&gt;(.*?)&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;更新于：&lt;/dt&gt;&lt;dd&gt;(.*?)&lt;/dd&gt;&lt;/dl&gt;&lt;/a&gt;&lt;/li&gt;</string>
 						<key>name</key>
-						<integer>3</integer>
+						<integer>4</integer>
 						<key>author</key>
-						<integer>0</integer>
+						<integer>6</integer>
 						<key>state</key>
-						<integer>7</integer>
+						<integer>1</integer>
 						<key>stateStringBegin</key>
 						<string></string>
 						<key>coverImageUrl</key>
-						<integer>5</integer>
+						<integer>3</integer>
 						<key>coverImageUrlIsNeedUTF8Encode</key>
 						<false/>
 						<key>comicDetailPageUrl</key>
 						<integer>2</integer>
 						<key>comicDetailPageIsNeedAddMainUrl</key>
-						<string>https://www.manhuagui.com</string>
+						<string>https://m.manhuagui.com</string>
 					</dict>
 					<key>classEndPageFlag</key>
-					<string>下一页</string>
+					<string></string>
 				</dict>
 				<key>classOfIsJson</key>
 				<dict>
@@ -161,7 +151,7 @@
 				<key>updateComicUrlWithDataIsNeedNowTime_Dict</key>
 				<dict/>
 				<key>updatePageMainUrl</key>
-				<string>https://www.manhuagui.com/list/lianzai/</string>
+				<string>https://m.manhuagui.com/list/list/lianzai/</string>
 				<key>updateGetResponseIsPostMethod_PostDataKeys_Dict</key>
 				<dict/>
 				<key>updateGetResponseIsPostMethod_PostData_PageNoKey</key>
@@ -208,7 +198,7 @@
 						<key>comicDetailPageUrl</key>
 						<integer>1</integer>
 						<key>comicDetailPageIsNeedAddMainUrl</key>
-						<string>https://www.manhuagui.com</string>
+						<string>https://m.manhuagui.com</string>
 					</dict>
 				</dict>
 				<key>updateOfIsJson</key>
@@ -247,7 +237,7 @@
 			<key>hotOfChoosseList</key>
 			<dict>
 				<key>hotPageMainUrl</key>
-				<string>https://www.manhuagui.com/rank/total.html</string>
+				<string>https://m.manhuagui.com/list/rank/total.html</string>
 				<key>hotGetResponseIsPostMethod_PostDataKeys_Dict</key>
 				<dict/>
 				<key>hotGetResponseIsPostMethod_PostData_PageNoKey</key>
@@ -294,7 +284,7 @@
 						<key>comicDetailPageUrl</key>
 						<integer>1</integer>
 						<key>comicDetailPageIsNeedAddMainUrl</key>
-						<string>https://www.manhuagui.com/</string>
+						<string>https://m.manhuagui.com/list/</string>
 					</dict>
 				</dict>
 				<key>hotOfIsJson</key>
@@ -571,9 +561,9 @@
 				<key>searchMainUrlStringWithSplite_ArrayOfNum</key>
 				<integer>6</integer>
 				<key>searchPageComicMainUrl</key>
-				<string>https://www.manhuagui.com/s/@_p1.html</string>
+				<string>https://m.manhuagui.com/list/s/@_p1.html</string>
 				<key>searchPageComicMainUrlNextUrl</key>
-				<string>https://www.manhuagui.com/s/@_p#.html</string>
+				<string>https://m.manhuagui.com/list/s/@_p#.html</string>
 				<key>searchResponseIsNeedPagingMethod_NeedIsYES_OrIsNO</key>
 				<true/>
 				<key>searchResponseIsPagingMethod_PageKeys_Dict</key>
