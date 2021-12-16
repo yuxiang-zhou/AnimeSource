@@ -8,7 +8,7 @@
 			<key>title</key>
 			<string>漫画柜m</string>
 			<key>mainURL</key>
-			<string>https://m.manhuagui.com/list/</string>
+			<string>https://m.manhuagui.com/</string>
 			<key>icon</key>
 			<string>http://source.51devapp.com/comics/ManHuaGui.png</string>
 			<key>serverOnlyID</key>
@@ -86,7 +86,7 @@
 					<key>classWebPageSourceRegex</key>
 					<dict>
 						<key>regex</key>
-						<string>&lt;li&gt;(.*?)&lt;a href=&quot;(.*?)&quot;&gt;&lt;div class=&quot;thumb&quot;&gt;&lt;img data-src=&quot;(.*?)&quot; src=&quot;(.*?)&quot;&gt;&lt;i&gt;(.*?)&lt;/i&gt;&lt;/div&gt;&lt;h3&gt;(.*?)&lt;/h3&gt;</string>
+						<string>li&gt;(.*?)&lt;a href=&quot;(.*?)&quot;&gt;&lt;div class=&quot;thumb&quot;&gt;&lt;img data-src=&quot;(.*?)&quot; src=&quot;(.*?)&quot;&gt;&lt;i&gt;(.*?)&lt;/i&gt;&lt;/div&gt;&lt;h3&gt;(.*?)&lt;/h3&gt;</string>
 						<key>name</key>
 						<integer>6</integer>
 						<key>author</key>
@@ -105,7 +105,7 @@
 						<string></string>
 					</dict>
 					<key>classEndPageFlag</key>
-					<string></string>
+					<string>点击查看</string>
 				</dict>
 				<key>classOfIsJson</key>
 				<dict>
