@@ -51,9 +51,9 @@
 						<key>title</key>
 						<string>全部</string>
 						<key>url1</key>
-						<string>https://m.manhuagui.com/list/view_p1.html</string>
+						<string>https://www.manhuagui.com/list/view_p1.html</string>
 						<key>url</key>
-						<string>https://m.manhuagui.com/list/view_p@.html</string>
+						<string>https://www.manhuagui.com/list/view_p@.html</string>
 						<key>parseLevel</key>
 						<integer>1</integer>
 					</dict>
