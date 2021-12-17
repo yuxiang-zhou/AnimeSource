@@ -51,9 +51,9 @@
 						<key>title</key>
 						<string>全部</string>
 						<key>url1</key>
-						<string>https://www.manhuagui.com/list/view_p1.html</string>
+						<string>https://m.manhuagui.com/list/view_p1.html</string>
 						<key>url</key>
-						<string>https://www.manhuagui.com/list/view_p@.html</string>
+						<string>https://m.manhuagui.com/list/view_p@.html</string>
 						<key>parseLevel</key>
 						<integer>1</integer>
 					</dict>
@@ -86,26 +86,26 @@
 					<key>classWebPageSourceRegex</key>
 					<dict>
 						<key>regex</key>
-						<string>li&gt;&lt;a class=&quot;(.*?)&quot; href=&quot;(.*?)&quot; title=&quot;(.*?)&quot;&gt;&lt;img(.*?)src=&quot;(.*?)&quot; alt=&quot;(.*?)&quot;/&gt;&lt;span class=&quot;bg&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tt&quot;&gt;更新至(.*?)&lt;/span&gt;(.*?)更新于：(.*?)&lt;em&gt;</string>
+						<string>li&gt;(.*?)&lt;a href=&quot;(.*?)&quot;&gt;&lt;div class=&quot;thumb&quot;&gt;&lt;img data-src=&quot;(.*?)&quot; src=&quot;(.*?)&quot;&gt;&lt;i&gt;(.*?)&lt;/i&gt;&lt;/div&gt;&lt;h3&gt;(.*?)&lt;/h3&gt;</string>
 						<key>name</key>
-						<integer>3</integer>
+						<integer>6</integer>
 						<key>author</key>
 						<integer>0</integer>
 						<key>state</key>
-						<integer>7</integer>
+						<integer>5</integer>
 						<key>stateStringBegin</key>
 						<string></string>
 						<key>coverImageUrl</key>
-						<integer>5</integer>
+						<integer>3</integer>
 						<key>coverImageUrlIsNeedUTF8Encode</key>
 						<false/>
 						<key>comicDetailPageUrl</key>
 						<integer>2</integer>
 						<key>comicDetailPageIsNeedAddMainUrl</key>
-						<string>https://www.manhuagui.com</string>
+						<string>https://m.manhuagui.com</string>
 					</dict>
 					<key>classEndPageFlag</key>
-					<string>下一页</string>
+					<string></string>
 				</dict>
 				<key>classOfIsJson</key>
 				<dict>
